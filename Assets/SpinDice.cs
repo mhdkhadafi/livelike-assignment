@@ -19,7 +19,7 @@ public class SpinDice : MonoBehaviour {
 		Crosshair.OffHover -= GlowOff;
 	}
 
-
+	// I use different behavior (vs DeflateBall) here to show the robustness of using event
 	void Spin(GameObject go)
 	{
 		if (this.name == go.name) {
